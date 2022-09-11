@@ -1,0 +1,76 @@
+{
+  "name": "react-native-amap3d",
+  "version": "0.0.0",
+  "description": "react-native 高德地图组件，支持 Android + iOS",
+  "author": "7c00 <i@7c00.cc>",
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "amap",
+    "maps",
+    "mapview"
+  ],
+  "main": "lib/src",
+  "files": [
+    "lib/src",
+    "lib/android/src",
+    "lib/android/build.gradle",
+    "lib/ios",
+    "react-native.config.js"
+  ],
+  "homepage": "https://github.com/qiuxiang/react-native-amap3d",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qiuxiang/react-native-amap3d"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "release-android": "react-native run-android --variant=release",
+    "reload": "adb reverse tcp:8081 tcp:8081 && adb shell input text rr",
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "@expo/react-native-action-sheet": "^3.13.0",
+    "@gorhom/bottom-sheet": "^4.1.5",
+    "babel-preset-react-native": "^2.1.0",
+    "dedupe": "^3.0.2",
+    "moment": "^2.29.3",
+    "native-base": "^3.4.3",
+    "react-native-action-button": "^2.8.5",
+    "react-native-actionsheet": "^2.4.2",
+    "react-native-amap-geolocation": "^1.1.2",
+    "react-native-amap3d": "^3.0.7",
+    "react-native-daterange-picker": "^1.5.1",
+    "react-native-fs": "^2.20.0",
+    "react-native-gesture-handler": "^2.4.0",
+    "react-native-image-picker": "^4.7.3",
+    "react-native-modal": "^13.0.1",
+    "react-native-multiple-select": "^0.5.7",
+    "react-native-reanimated": "^2.7.0",
+    "react-native-scroll-bottom-sheet": "^0.7.0",
+    "react-native-search-bar": "^3.5.1",
+    "react-native-storage": "^1.0.1",
+    "react-native-svg": "^12.3.0",
+    "react-native-swipe-list-view": "^3.2.9",
+    "react-native-vector-icons": "^9.1.0",
+    "rn-fetch-blob": "^0.12.0",
+    "save": "^2.5.0",
+    "supercluster": "^7.1.4"
+  },
+  "devDependencies": {
+    "@react-native-picker/picker": "^2.1.0",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.0.11",
+    "@types/react-native": "^0.65.8",
+    "@types/react-native-actionsheet": "^2.4.3",
+    "@types/supercluster": "^5.0.3",
+    "react": "17.0.2",
+    "react-native": "^0.66.3",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.8.0"
+  },
+  "prettier": {
+    "printWidth": 100
+  }
+}

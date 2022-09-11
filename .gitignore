@@ -1,0 +1,15 @@
+.idea/
+.gradle/
+node_modules/
+build/
+xcuserdata/
+Pods/
+lib/js/
+
+*.iml
+*.xcworkspace
+local.properties
+Podfile.lock
+package-lock.json
+yarn.lock
+.DS_Store
