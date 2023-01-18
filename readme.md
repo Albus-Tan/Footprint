@@ -1,5 +1,7 @@
-# 项目简介
-本项目为上海交通大学软件学院 SE3330 课程大作业，代码已经合入上海交通大学软件学院代码查重库，请学弟学妹注意，不要抄袭！！！
-
-# 注意事项
-高德地图方面的 token 请修改为自己所申请的
+# Footprint
+## Introduction
+Backend of a house finding App based on Amap (with Spring, Kubernetes, ELK)
+## Academic Integrity WARNING
+If you are currently learning SJTU SE3330 course, please be aware that the code has been added to the checking library of SJTU SE, so please do not copy it.
+## Amap token
+Please register your own Amap token on https://console.amap.com/dev/index and fill in instead.
